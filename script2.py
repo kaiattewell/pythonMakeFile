@@ -1,7 +1,7 @@
-def dabber():
-	print("dab5")
-	print("dab4")
-	print("dab3")
-	print("dab2")
-	print("dab don")
+import time
 
+def dabber():
+	f= open("dabbi","a+")
+	for i in range(5):
+		f.write("dab\n")
+	f.close()
